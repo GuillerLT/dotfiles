@@ -1,0 +1,45 @@
+{
+  
+  "workbench.sideBar.location": "right",
+  "workbench.panel.defaultLocation": "bottom",
+  "workbench.startupEditor": "none",
+  "workbench.editor.enablePreview": false,
+  
+  "editor.lineNumbers": "on",
+  "editor.wordWrap": "off",
+  "editor.cursorBlinking": "solid",
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.autoClosingBrackets": "never",
+  "editor.autoClosingQuotes": "never",
+  "editor.acceptSuggestionOnEnter": "off",
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.matchBrackets": "near",
+  
+  "files.autoSave": "off",
+  "files.hotExit": "off",
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  
+  "explorer.incrementalNaming": "smart",
+  
+  "breadcrumbs.enabled": true,
+  "breadcrumbs.symbolSortOrder": "name",
+  
+  "C_Cpp.clang_format_style": "file",
+  "C_Cpp.clang_format_fallbackStyle": "Google",
+  "C_Cpp.default.cppStandard": "c++17",
+  "C_Cpp.default.compilerArgs": [
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-Wconversion",
+  ],
+  
+  "git.enabled": true,
+  
+  "telemetry.enableCrashReporter": false,
+  "telemetry.enableTelemetry": false,
+  
+}
