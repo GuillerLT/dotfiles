@@ -1,0 +1,22 @@
+# Editing mode
+set editing-mode        vi
+set show-mode-in-prompt on
+set vi-ins-mode-string  "\e[30;44m"
+set vi-cmd-mode-string  "\e[30;42m"
+
+# Search
+"\e[A": history-search-backward
+"\e[B": history-search-forward
+set keymap vi-insert
+"\e[A": history-search-backward
+"\e[B": history-search-forward
+set keymap vi-command
+"k":    history-search-backward
+"j":    history-search-forward
+"\e[A": history-search-backward
+"\e[B": history-search-forward
+
+# Completion
+set completion-ignore-case on
+set show-all-if-ambiguous  on
+
