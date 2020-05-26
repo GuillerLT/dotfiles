@@ -1,8 +1,8 @@
 # Editing mode
 set editing-mode        vi
 set show-mode-in-prompt on
-set vi-ins-mode-string  "\e[30;44m"
-set vi-cmd-mode-string  "\e[30;42m"
+set vi-ins-mode-string  "\001\e[30;44m\002"
+set vi-cmd-mode-string  "\001\e[30;42m\002"
 
 # Search
 "\e[A": history-search-backward
