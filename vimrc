@@ -28,6 +28,7 @@ set encoding=utf-8
 set number
 set nowrap
 set cursorline
+set showcmd
 set colorcolumn=80
 set signcolumn=yes
 
@@ -70,4 +71,7 @@ set confirm
 set wildmenu
 set wildmode=list:longest
 set backspace=indent,eol,start
+
+" Clipboard
+set clipboard=unnamedplus
 
