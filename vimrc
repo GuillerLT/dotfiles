@@ -71,3 +71,5 @@ set wildmenu
 set wildmode=list:longest
 set backspace=indent,eol,start
 
+" Completion
+let g:ycm_autoclose_preview_window_after_completion=1
