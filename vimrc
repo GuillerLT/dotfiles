@@ -10,6 +10,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'joshdick/onedark.vim'   " Colorscheme
   Plug 'itchyny/lightline.vim'  " Status line
   Plug 'tpope/vim-fugitive'     " Git
+  Plug 'airblade/vim-gitgutter' " Git gutter
   Plug 'frazrepo/vim-rainbow'   " Brace matching
   Plug 'rstacruz/vim-closer'    " Brace closing
   Plug 'preservim/nerdtree'     " File explorer
@@ -74,4 +75,7 @@ set backspace=indent,eol,start
 
 " Clipboard
 set clipboard=unnamedplus
+
+" YouCompleteMe
+let g:ycm_enable_diagnostic_signs=0
 
